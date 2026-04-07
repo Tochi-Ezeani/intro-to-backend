@@ -1,0 +1,25 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "A tutorial for intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tochi-Ezeani/intro-to-backend.git"
+  },
+  "author": "Barry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tochi-Ezeani/intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/Tochi-Ezeani/intro-to-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongoose": "^8.23.0"
+  }
+}
