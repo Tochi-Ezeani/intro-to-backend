@@ -35,4 +35,21 @@ const registerUser = async (req, res) => {
   }
 };
 
+const loginUser = async (req, res) => {
+  try {
+    // Checking if the user already exists
+    const { email, password } = req.body;
+
+    const user = await User.findOne({ email: email.toLowerCase() });
+
+    if (!user) {
+      return res.status(400).json({ message: "User not found" });
+    }
+
+    
+  } catch (error) {
+
+  }
+};
+
 export { registerUser };
